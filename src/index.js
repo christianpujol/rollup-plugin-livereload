@@ -13,7 +13,7 @@ export default function livereload (options = { watch: '' }) {
   let enabled = options.verbose === false
   const port = options.port || 35729
   const wsPort = options.ws  
-  const snippetSrc = options.clientUrl ? JSON.stringify(options.clientUrl) : `'//' + || (window.location.host || 'localhost').split(':')[0] + ':${wsPort || port}/livereload.js?snipver=1'`
+  const snippetSrc = options.clientUrl ? JSON.stringify(options.clientUrl) : `'//' + (window.location.host || 'localhost').split(':')[0] + ':${wsPort || port}/livereload.js?snipver=1'`
   const server = createServer(options)
 
   // Start watching
