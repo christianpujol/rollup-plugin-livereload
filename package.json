@@ -1,5 +1,5 @@
 {
-  "name": "naga/rollup-plugin-livereload",
+  "name": "naga-rollup-plugin-livereload",
   "version": "1.0.4",
   "description": "Rollup plugin for LiveReload that watches the bundle and reloads the page on change",
   "main": "dist/index.cjs.js",
