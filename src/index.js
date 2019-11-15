@@ -1,4 +1,4 @@
-import { createServer } from 'naga-livereload'
+import { createServer } from 'livereload'
 import { resolve } from 'path'
 
 export default function livereload (options = { watch: '' }) {
