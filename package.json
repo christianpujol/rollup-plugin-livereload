@@ -20,13 +20,13 @@
   ],
   "license": "MIT",
   "author": "Thomas Ghysels <info@thomasg.be>",
-  "homepage": "https://github.com/thgh/rollup-plugin-livereload",
+  "homepage": "https://github.com/christianpujol/rollup-plugin-livereload",
   "bugs": {
-    "url": "https://github.com/thgh/rollup-plugin-livereload/issues"
+    "url": "https://github.com/christianpujol/rollup-plugin-livereload/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thgh/rollup-plugin-livereload"
+    "url": "https://github.com/christianpujol/rollup-plugin-livereload"
   },
   "files": [
     "dist"
@@ -35,7 +35,7 @@
     "rollup": "^1.0.0"
   },
   "dependencies": {
-    "livereload": "0.8.0 || ^0.8.2"
+    "livereload": "git+https://github.com/christianpujol/node-livereload.git"
   },
   "devDependencies": {
     "rollup": "1",
