@@ -35,7 +35,7 @@
     "rollup": "^1.0.0"
   },
   "dependencies": {
-    "livereload": "0.8.0 || ^0.8.2"
+    "naga-livereload": "git+https://github.com/christianpujol/node-livereload.git"
   },
   "devDependencies": {
     "rollup": "1",
